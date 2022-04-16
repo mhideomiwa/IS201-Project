@@ -1,4 +1,6 @@
-
+.common {
+    position: static;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -8,7 +10,7 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
@@ -21,4 +23,37 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+
+.navDiv {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bodyDiv {
+    padding: 15px 20px 20px 80px;
+    top: 200px;
+    right: 20px;
+    left: 20px;
+    bottom: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.footer {
+    position: static;
+    background-color: black;
+    padding-top: 25px;
+    bottom: 5px;
+    height: 50px;
+    left: 5px;
+    right: 5px;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }

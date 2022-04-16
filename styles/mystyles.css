@@ -14,10 +14,28 @@ footer {
 
 .link1 {
     color: white;
-    font-family: Arial, Helvetica, SansSerif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.blackColor {
+    color:black
+}
+
+.center {
+    text-align: center;
+}
+
+.tableauCap {
+    font-style: italic;
+    color: darkgrey;
+}
+
+.center-graphic {
+    margin: auto;
+    max-width: 1000px;
 }
